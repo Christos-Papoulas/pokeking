@@ -20,3 +20,7 @@ php artisan pokemon:fetch
 php artisan pokemon:fetchProfiles
 ```
 
+## Run the app in development mode
+
+- Run: `php artisan serve`
+- Open A browser at http://localhost:8000

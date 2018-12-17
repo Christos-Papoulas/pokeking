@@ -15,4 +15,9 @@ class PokemonProfiles extends Model
         'pokemon_id',
         'profile'
     ];
+
+    public function pokemon()
+    {
+        return $this->belongsTo(Pokemons::class);
+    }
 }
