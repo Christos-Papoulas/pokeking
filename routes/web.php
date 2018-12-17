@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'PokemonController@index');
+Route::get('/pokemon/king', 'PokemonKingController@show');
