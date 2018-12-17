@@ -17,4 +17,6 @@ We are ready to go.
 
 ```bash
 php artisan pokemon:fetch
+php artisan pokemon:fetchProfiles
 ```
+
